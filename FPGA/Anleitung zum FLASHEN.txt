@@ -1,0 +1,15 @@
+-> Quartusprojekt normal kompilieren
+-> Quartus -> File -> Convert Programming File...
+-> Programming file type: "JTAG Indirect Configuration File (*.jic)
+-> Configuration device: EPCQ64 in Active Serial mode
+-> select Output file
+-> add EP3C40-Flashdevice to FlashLoader-Area
+-> add SOF-File to SOF-Data-Area
+
+-> open Programmer
+-> add device "Cyclone III" -> "EP3C40F484"
+-> Attach Flash Device -> "ASC devices" -> "EPCQ64"
+-> change file of EPCQ64 to *.jic file
+-> Select "Program/Configure" and "Verify"
+-> "START"
+

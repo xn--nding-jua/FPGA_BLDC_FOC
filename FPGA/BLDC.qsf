@@ -1,0 +1,154 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 09:45:27  October 08, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		BLDC_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY BLDC
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:45:27  OCTOBER 08, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_A11 -to clk
+set_location_assignment PIN_P4 -to ADC1_CONV
+set_location_assignment PIN_N1 -to ADC1_SCK
+set_location_assignment PIN_M3 -to ADC1_SDO
+set_location_assignment PIN_N2 -to ADC1_SEL0
+set_location_assignment PIN_M4 -to ADC1_SEL1
+set_location_assignment PIN_P1 -to ADC1_SEL2
+set_location_assignment PIN_V2 -to ADC2_/CS
+set_location_assignment PIN_P2 -to ADC2_SCK
+set_location_assignment PIN_R1 -to ADC2_SDI
+set_location_assignment PIN_P3 -to ADC2_SDO
+set_location_assignment PIN_M2 -to DAC_/CS
+set_location_assignment PIN_J4 -to DAC_SCK
+set_location_assignment PIN_M1 -to DAC_/CLR
+set_location_assignment PIN_G3 -to DAC_SDI
+set_location_assignment PIN_R2 -to GIO34
+set_location_assignment PIN_W1 -to GIO35
+set_location_assignment PIN_U1 -to GIO36
+set_location_assignment PIN_W2 -to GIO37
+set_location_assignment PIN_U2 -to GIO38
+set_location_assignment PIN_Y1 -to GIO39
+set_location_assignment PIN_V1 -to GIO40
+set_location_assignment PIN_Y2 -to GIO41
+set_location_assignment PIN_AA1 -to GIO42
+set_location_assignment PIN_AA2 -to GIO43
+set_location_assignment PIN_P5 -to GIO44
+set_location_assignment PIN_T4 -to GIO45
+set_location_assignment PIN_R5 -to GIO46
+set_location_assignment PIN_V3 -to GIO47
+set_location_assignment PIN_T3 -to GIO48
+set_location_assignment PIN_V4 -to GIO49
+set_location_assignment PIN_M22 -to GIO50
+set_location_assignment PIN_M21 -to GIO51
+set_location_assignment PIN_M19 -to GIO52
+set_location_assignment PIN_M20 -to GIO53
+set_location_assignment PIN_P20 -to GIO54
+set_location_assignment PIN_N20 -to GIO55
+set_location_assignment PIN_N18 -to GIO56
+set_location_assignment PIN_N19 -to GIO57
+set_location_assignment PIN_R18 -to GIO58
+set_location_assignment PIN_M16 -to GIO59
+set_location_assignment PIN_M5 -to GIO60
+set_location_assignment PIN_J3 -to GIO61
+set_location_assignment PIN_T5 -to GIO62
+set_location_assignment PIN_L6 -to GIO63
+set_location_assignment PIN_R14 -to GIO64
+set_location_assignment PIN_J6 -to PWM1
+set_location_assignment PIN_C2 -to PWM2
+set_location_assignment PIN_J1 -to PWM3
+set_location_assignment PIN_B2 -to PWM4
+set_location_assignment PIN_H1 -to PWM5
+set_location_assignment PIN_B1 -to PWM6
+set_location_assignment PIN_H2 -to PWM7
+set_location_assignment PIN_H6 -to PWM8
+set_location_assignment PIN_E4 -to PWM9
+set_location_assignment PIN_H7 -to PWM10
+set_location_assignment PIN_G5 -to PWM11
+set_location_assignment PIN_F1 -to PWM12
+set_location_assignment PIN_C1 -to PWM13
+set_location_assignment PIN_F2 -to PWM14
+set_location_assignment PIN_D2 -to PWM15
+set_location_assignment PIN_E1 -to PWM16
+set_location_assignment PIN_H5 -to TxD1
+set_location_assignment PIN_G4 -to TxD2
+set_location_assignment PIN_J2 -to RxD1
+set_location_assignment PIN_E3 -to RxD2
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE BLDC.bdf
+set_global_assignment -name QIP_FILE altpll0.qip
+set_global_assignment -name QIP_FILE c_frequency.qip
+set_global_assignment -name VHDL_FILE alpha_beta_2_abcdef.vhd
+set_global_assignment -name VHDL_FILE edge_detect.vhd
+set_global_assignment -name QIP_FILE c_amplitude.qip
+set_global_assignment -name VHDL_FILE abcdef_to_alpha_beta.vhd
+set_global_assignment -name VHDL_FILE SOGI.vhd
+set_global_assignment -name VHDL_FILE SOGI_PNSC.vhd
+set_global_assignment -name VHDL_FILE alpha_beta_to_dq.vhd
+set_global_assignment -name VHDL_FILE phase_acc.vhd
+set_global_assignment -name VHDL_FILE pi_controller.vhd
+set_global_assignment -name QIP_FILE c_kp.qip
+set_global_assignment -name QIP_FILE c_ki.qip
+set_global_assignment -name QIP_FILE c_ts.qip
+set_global_assignment -name QIP_FILE c_phaseoffset.qip
+set_global_assignment -name VHDL_FILE test_bitshift.vhd
+set_global_assignment -name VHDL_FILE FLL.vhd
+set_global_assignment -name QIP_FILE c_omega.qip
+set_global_assignment -name VHDL_FILE c_ts_alternativ.vhd
+set_global_assignment -name QIP_FILE c_dt_delay.qip
+set_global_assignment -name VHDL_FILE convert_adc_current.vhd
+set_global_assignment -name VHDL_FILE dq_to_abcdef.vhd
+set_global_assignment -name VHDL_FILE convert_dac_values.vhd
+set_global_assignment -name VHDL_FILE hall_to_alpha_beta.vhd
+set_global_assignment -name CDF_FILE output_files/BLDC.cdf
+set_global_assignment -name QIP_FILE c_idref.qip
+set_global_assignment -name VHDL_FILE dq_decoupling.vhd
+set_global_assignment -name QIP_FILE c_Ls.qip
+set_global_assignment -name QIP_FILE c_Ke.qip
+set_global_assignment -name VHDL_FILE alpha_beta_selector.vhd
+set_global_assignment -name VHDL_FILE selector_setpoint_speed.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,183 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 224 384)
+	(text "ADS7953" (rect 5 0 45 12)(font "Arial" ))
+	(text "inst" (rect 8 352 20 364)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk_in" (rect 0 0 22 12)(font "Arial" ))
+		(text "clk_in" (rect 21 27 43 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "start_conv" (rect 0 0 43 12)(font "Arial" ))
+		(text "start_conv" (rect 21 43 64 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "miso" (rect 0 0 18 12)(font "Arial" ))
+		(text "miso" (rect 21 59 39 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "sck" (rect 0 0 14 12)(font "Arial" ))
+		(text "sck" (rect 173 27 187 39)(font "Arial" ))
+		(line (pt 208 32)(pt 192 32)(line_width 1))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "mosi" (rect 0 0 18 12)(font "Arial" ))
+		(text "mosi" (rect 169 43 187 55)(font "Arial" ))
+		(line (pt 208 48)(pt 192 48)(line_width 1))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "cs" (rect 0 0 9 12)(font "Arial" ))
+		(text "cs" (rect 178 59 187 71)(font "Arial" ))
+		(line (pt 208 64)(pt 192 64)(line_width 1))
+	)
+	(port
+		(pt 208 80)
+		(output)
+		(text "ch0_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch0_data[11..0]" (rect 128 75 187 87)(font "Arial" ))
+		(line (pt 208 80)(pt 192 80)(line_width 3))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "ch1_data[11..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "ch1_data[11..0]" (rect 130 91 187 103)(font "Arial" ))
+		(line (pt 208 96)(pt 192 96)(line_width 3))
+	)
+	(port
+		(pt 208 112)
+		(output)
+		(text "ch2_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch2_data[11..0]" (rect 128 107 187 119)(font "Arial" ))
+		(line (pt 208 112)(pt 192 112)(line_width 3))
+	)
+	(port
+		(pt 208 128)
+		(output)
+		(text "ch3_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch3_data[11..0]" (rect 128 123 187 135)(font "Arial" ))
+		(line (pt 208 128)(pt 192 128)(line_width 3))
+	)
+	(port
+		(pt 208 144)
+		(output)
+		(text "ch4_data[11..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "ch4_data[11..0]" (rect 127 139 187 151)(font "Arial" ))
+		(line (pt 208 144)(pt 192 144)(line_width 3))
+	)
+	(port
+		(pt 208 160)
+		(output)
+		(text "ch5_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch5_data[11..0]" (rect 128 155 187 167)(font "Arial" ))
+		(line (pt 208 160)(pt 192 160)(line_width 3))
+	)
+	(port
+		(pt 208 176)
+		(output)
+		(text "ch6_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch6_data[11..0]" (rect 128 171 187 183)(font "Arial" ))
+		(line (pt 208 176)(pt 192 176)(line_width 3))
+	)
+	(port
+		(pt 208 192)
+		(output)
+		(text "ch7_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch7_data[11..0]" (rect 128 187 187 199)(font "Arial" ))
+		(line (pt 208 192)(pt 192 192)(line_width 3))
+	)
+	(port
+		(pt 208 208)
+		(output)
+		(text "ch8_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch8_data[11..0]" (rect 128 203 187 215)(font "Arial" ))
+		(line (pt 208 208)(pt 192 208)(line_width 3))
+	)
+	(port
+		(pt 208 224)
+		(output)
+		(text "ch9_data[11..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "ch9_data[11..0]" (rect 128 219 187 231)(font "Arial" ))
+		(line (pt 208 224)(pt 192 224)(line_width 3))
+	)
+	(port
+		(pt 208 240)
+		(output)
+		(text "ch10_data[11..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "ch10_data[11..0]" (rect 125 235 187 247)(font "Arial" ))
+		(line (pt 208 240)(pt 192 240)(line_width 3))
+	)
+	(port
+		(pt 208 256)
+		(output)
+		(text "ch11_data[11..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "ch11_data[11..0]" (rect 126 251 187 263)(font "Arial" ))
+		(line (pt 208 256)(pt 192 256)(line_width 3))
+	)
+	(port
+		(pt 208 272)
+		(output)
+		(text "ch12_data[11..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "ch12_data[11..0]" (rect 125 267 187 279)(font "Arial" ))
+		(line (pt 208 272)(pt 192 272)(line_width 3))
+	)
+	(port
+		(pt 208 288)
+		(output)
+		(text "ch13_data[11..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "ch13_data[11..0]" (rect 125 283 187 295)(font "Arial" ))
+		(line (pt 208 288)(pt 192 288)(line_width 3))
+	)
+	(port
+		(pt 208 304)
+		(output)
+		(text "ch14_data[11..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "ch14_data[11..0]" (rect 124 299 187 311)(font "Arial" ))
+		(line (pt 208 304)(pt 192 304)(line_width 3))
+	)
+	(port
+		(pt 208 320)
+		(output)
+		(text "ch15_data[11..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "ch15_data[11..0]" (rect 125 315 187 327)(font "Arial" ))
+		(line (pt 208 320)(pt 192 320)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 352)(line_width 1))
+	)
+)
